@@ -5,3 +5,7 @@ body {
   background-color: rgb(39, 39, 39);
   overflow: hidden;
 }
+
+.stuff {
+  color: rgb(121, 80, 0);
+}

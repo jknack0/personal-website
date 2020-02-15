@@ -2,7 +2,9 @@ import React from 'react'
 import { NavigationBarContainer,
          PageTitle,
          NavigationLinks,
-         Link } from './Styles'
+         Link,
+         InvertedLink
+        } from './Styles'
 
 const NavigationBar = () => {
   return (
@@ -11,6 +13,7 @@ const NavigationBar = () => {
       <NavigationLinks>
         <Link>Projects</Link>
         <Link>About Me</Link>
+        <InvertedLink>Contact</InvertedLink>
       </NavigationLinks>
     </NavigationBarContainer>
   )

@@ -6,4 +6,9 @@ export const PageContainer = styled.div`
   height: 100vh;
   background-image: url(${BackgroundImage});
   background-size: 100vw 100vh;
+  @media (max-width: 768px) {
+    background-color: rgb(39, 39, 39);
+    background-repeat: no-repeat;
+    opacity: .8;
+  }
 `
